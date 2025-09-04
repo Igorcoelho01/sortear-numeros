@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sortear números</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Sorteador de números</span></h1>
+
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Quantidade de números </label>
+                        <input class="container__input" id="quantidade" type="number" min="1">
+                    </div>
+                    
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Menor número possível</label>
+                        <input class="container__input" id="de" type="number" min="1">
+                    </div>
+                    
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Maior número possível</label>
+                        <input class="container__input" id="ate" type="number" min="1">
+                    </div>
+                </div>
+                
+                <div class="chute container__botoes">
+                    <button onclick="sortear()" id="btn-sortear" class="container__botao">Sortear</button>
+                    <button onclick="reiniciar()" id="btn-reiniciar" class="container__botao" >Reiniciar</button>
+                </div>
+
+                <div class="container__texto" id="resultado">
+                    <label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
