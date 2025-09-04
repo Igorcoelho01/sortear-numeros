@@ -32,5 +32,3 @@ Acesse pelo Deploy [sortear-numeros-gmbzyo690-igorcoelho01s-projects.vercel.app]
 ## 📄 Licença
 
 Sinta-se livre para usar, modificar e compartilhar.
-
-sortear-numeros-gmbzyo690-igorcoelho01s-projects.vercel.app
